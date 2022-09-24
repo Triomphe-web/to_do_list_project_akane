@@ -1,0 +1,17 @@
+p {
+    padding: 12px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+li {
+    font-family: monospace;
+    letter-spacing: 0.1em;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.checked {
+    text-decoration: line-through;
+    color: rgb(209, 45, 45);
+}
