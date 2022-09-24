@@ -4,14 +4,18 @@ p {
     font-weight: bold;
     text-transform: lowercase;
 }
-li {
+
+.task {
     font-family: monospace;
     letter-spacing: 0.1em;
     font-size: large;
     font-weight: bold;
     cursor: pointer;
+    background-color: rgb(53, 50, 50);
+    border-bottom: 1px dashed black;
+    border-radius: 10px;
 }
 .checked {
     text-decoration: line-through;
-    color: rgb(209, 45, 45);
+    color: rgba(177, 38, 38, 0.699);
 }

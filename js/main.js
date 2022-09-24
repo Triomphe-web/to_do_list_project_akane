@@ -7,10 +7,10 @@ let input = document.getElementById("task_input");
 add_button.addEventListener("click", (e) => {
   e.preventDefault();
   let para = document.createElement("li");
-  para.style.margin = "20px";
   para.classList.add("task");
   para.style.textTransform = "uppercase";
-  para.style.listStyleType = "square";
+  para.style.listStyleType = "none";
+  para.style.padding = "10px";
   if (input.value == "") {
     alert("Remplissez le champ");
   } else {
